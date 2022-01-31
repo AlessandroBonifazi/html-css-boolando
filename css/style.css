@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.debug-mode {
+/* .debug-mode {
     border: 2px solid black;
-    /* height: ; */
-}
+
+} */
 
 .container {
     height: 935px;
@@ -101,4 +101,21 @@ h3 {
 img {
     height: 400px;
     object-fit: cover;
+}
+
+.photo:hover .heart{
+    color: red;
+    z-index: 21;
+}
+
+.photo .img-top {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    cursor: pointer;
+}
+.photo:hover .img-top{
+    display: inline;
 }
