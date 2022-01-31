@@ -31,10 +31,38 @@ article {
     margin: 0 25px;                     
 }
 
+/* Inizio details */
 header {
     height: 50px;
 }
 
+.brand {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-price {
+    color: red;
+    font-weight: 550;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+/* fine details */
+
+/* inizio tag */
 .photo {
     position: relative;
 }
@@ -57,6 +85,7 @@ header {
     color: white;
     background-color: red;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
     padding: 3px 5px;
 }
 
@@ -64,8 +93,10 @@ header {
     color: white;
      background-color: green;
      font-size: 12px;
+     font-family: 'Montserrat', sans-serif;
      padding: 3px 5px; 
 }
+/* fine tag */
 
 img {
     height: 400px;
