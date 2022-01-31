@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .debug-mode {
+    border: 2px solid black;
+
+} */
+
+.container {
+    height: 935px;
+    width: 900px;
+    margin: 20px auto;
+}
+
+.row {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+article {
+    height: 100%;
+    width: 278px;
+    display: inline-block;
+}
+
+.article-mid {
+    margin: 0 25px;                     
+}
+
+/* Inizio details */
+header {
+    height: 50px;
+}
+
+.brand {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-price {
+    color: red;
+    font-weight: 550;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+/* fine details */
+
+/* inizio tag */
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+.tag {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;  
+}
+.sconto {
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 5px;
+}
+
+.green {
+    color: white;
+     background-color: green;
+     font-size: 12px;
+     font-family: 'Montserrat', sans-serif;
+     padding: 3px 5px; 
+}
+/* fine tag */
+
+/* Inizio img */
+.photo {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url("../img/1.webp");
+    
+}
+
+
+
+
+.photo:hover .heart{
+    color: red;
+    z-index: 21;
+}
+
