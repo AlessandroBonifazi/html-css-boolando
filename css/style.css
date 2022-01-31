@@ -4,7 +4,38 @@
     box-sizing: border-box;
 }
 
-/* .debug-mode {
+.debug-mode {
     border: 2px solid black;
-    height: ;
-} */
+    /* height: ; */
+}
+
+.container {
+    height: 935px;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.row {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+article {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+#article-mid {
+    margin: 0 45px;                     
+               /* fix margin */
+}
+
+header {
+    height: 50px;
+}
+
+.photo {
+    height: 400px;
+}
