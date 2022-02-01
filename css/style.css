@@ -99,8 +99,7 @@ h3 {
 /* fine tag */
 
 img {
-    height: 400px;
-    object-fit: cover;
+    height: 400px;   
 }
 
 .photo:hover .heart{
